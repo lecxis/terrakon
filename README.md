@@ -5,6 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm run deploy`
+
+This will update the published version to the latest version on react pages.
 
 ### `npm start`
 

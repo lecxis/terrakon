@@ -1,9 +1,17 @@
 //import {NavLink} from 'react-router-dom';
+//http://localhost:3000/terrakon "http://localhost:3000/terrakon/asset/images/ship-rig.jpg"/
+
+//import background from "http://localhost:3000/terrakon/asset/images/ship-rig.jpg";
 
 export default function Header() {
     return (
-        <header className="App-header">
-           <nav className="menu">
+        <header className="App-header"  style={{ 
+          backgroundImage: `url(${process.env.PUBLIC_URL + '/asset/images/drillers-rig.jpg'})`,
+          backgroundRepeat: 'no-repeat',
+          height: '700px'
+          
+          }}>
+           <nav className="menu" >
             <div className="logo">
       <img
         src="https://i.imgur.com/MK3eW3Am.jpg"
