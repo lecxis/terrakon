@@ -27,7 +27,7 @@ export default function Header() {
   </ul>
 </nav>
 <div className="intro-body">
-<p>Redefining soil Investigation and ground water exploration</p>
+<p>Redefining soil testing and ground water exploration</p>
 </div>
 </header>
      
