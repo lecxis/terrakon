@@ -77,7 +77,8 @@ export default function Header() {
   </Navbar>
 
   <div className="intro-body">
-<p>Redefining soil testing and ground water exploration</p>
+<p>Redefining geotechnical soil investigation, foundation design,
+   and groundwater exploration!</p>
 </div>
 
   </div>
