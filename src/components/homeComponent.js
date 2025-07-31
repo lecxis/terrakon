@@ -64,12 +64,77 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
       </Row>
 
       <Row className="mx-auto bg-light p-4">
-        This is the row
-        <Col xs={12}  >
-             <h4 className="mt-5"> Geothechnical Soil Investigation, Foundation Design and Structural Integrity Testing</h4>
-             
-             <p className="text-center mt-4"> Our approach is to utilize the best working condition in factoring a proper channel</p>
+       
+        <Col xs={12} className="text-center"  >
+             <h4 className="mt-5"> Geothechnical and  Structural Integrity Services</h4>
+
+             <p className=" mt-4"> Our approach is to utilize the best working condition in factoring a proper channel</p>
         </Col>
+
+        <Col xs={12} >
+              <Row className="mt-5 align-items-center text-center">
+                <Col md ={4} lg={3} className= "justify-content-center " >
+                      <img
+    src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
+         alt="Rig beside a ship" width = "80" 
+        // className="img-fluid m-6"
+       />
+       <h6 className="my-5">Geotechnical Soil Investigation</h6>
+
+       <p>
+        Designing anad constructing a strong and resilient foundation is mostly dependent on the geotechnical
+        soil investigation carried out. Carefull analysis and detailed soil test will go a long way in determinig the 
+        success of the foundation.
+       </p>
+                </Col>
+
+                <Col md ={4} lg={3}>
+                      <img
+    src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
+         alt="Rig beside a ship" width = "80" 
+        // className="img-fluid m-6"
+       />
+       <h6 className="my-5">Super-structure and sub-structure appraisal</h6>
+
+       <p>
+        Designing anad constructing a strong and resilient foundation is mostly dependent on the geotechnical
+        soil investigation carried out. Carefull analysis and detailed soil test will go a long way in determinig the 
+        success of the foundation.
+       </p>
+                </Col>
+
+                <Col md ={4} lg={3}>
+                      <img
+    src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
+         alt="Rig beside a ship" width = "80" 
+        // className="img-fluid m-6"
+       />
+       <h6 className="my-5">Pile instalation</h6>
+
+       <p>
+        Designing anad constructing a strong and resilient foundation is mostly dependent on the geotechnical
+        soil investigation carried out. Carefull analysis and detailed soil test will go a long way in determinig the 
+        success of the foundation.
+       </p>
+                </Col>
+
+                <Col md ={4} lg={3}>
+                      <img
+    src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
+         alt="Rig beside a ship" width = "80" 
+        // className="img-fluid m-6"
+       />
+       <h6 className="my-5">Pile Integrity Testing</h6>
+
+       <p>
+        Designing anad constructing a strong and resilient foundation is mostly dependent on the geotechnical
+        soil investigation carried out. Carefull analysis and detailed soil test will go a long way in determinig the 
+        success of the foundation.
+       </p>
+                </Col>
+                </Row>      
+        </Col>
+
       </Row>
 
         This is where the body will lie
