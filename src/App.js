@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import Header from './components/header';
+import Footer from './components/footer';
+import Home from './components/homeComponent';
 
 
 function App() {
@@ -9,9 +11,9 @@ function App() {
     <div className="App">
       
       <Header/>
- 
-      
-       This is where the body will lie
+       
+       <Home/>
+       <Footer/>
     </div>
   );
 }
