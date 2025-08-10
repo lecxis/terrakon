@@ -57,7 +57,7 @@ export default function Header() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">About us</Nav.Link>
-            <Nav.Link href="#home">Contact</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="#link">History</Nav.Link>
           </Nav>
 

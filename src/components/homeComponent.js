@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import {Button, Row, Col} from 'react-bootstrap';
 
-function Main() {
+function HomeComponent() {
 
 function clickMe(string){
 console.log(string);
@@ -40,7 +40,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
 
   return (
 
-    <Container className='my-5'>
+    <div className='my-5'>
     <Row className="align-items-center">
         <Col sm={8} className="mx-auto bg-light p-4">
         <h4> Providing Enginnering Excellence is what we Do Here</h4>
@@ -144,8 +144,8 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
           <span className="fa fa-sign-in fa-lg"></span> Login</Button>
         </Row>
        
-    </Container>
+    </div>
   )};
 
 
- export default Main; 
+ export default HomeComponent; 
