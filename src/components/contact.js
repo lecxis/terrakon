@@ -48,7 +48,7 @@ function HomeComponent() {
             </Col>
       </Row>
 
-      <Row>
+      <Row className="p-5">
         <Col>
         <h2 className="text-center"> Get in touch</h2>
 

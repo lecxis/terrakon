@@ -42,7 +42,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
 
     <div className='my-5'>
     <Row className="align-items-center">
-        <Col sm={8} className="mx-auto bg-light p-4">
+        <Col sm={8} className="mx-auto bg-light p-5">
         <h4> Providing Enginnering Excellence is what we Do Here</h4>
                     <p> Xxxx consult is poised tpo deliver the best sevices in terms of excellence. The truth 
                       is I am just creating a template for the website. however, when the site is ready This
@@ -72,7 +72,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
         </Col>
 
         <Col xs={12} >
-              <Row className="mt-5 align-items-center text-center">
+              <Row className="mt-5 align-items-center text-center p-4">
                 <Col md ={4} lg={3} className= "justify-content-center " >
                       <img
     src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}

@@ -11,7 +11,7 @@ import Projects from './components/projects';
 
 function App() {
   return (
-    <Container  className="App">
+    <div className="App">
       
       <Header/>
        
@@ -19,7 +19,7 @@ function App() {
        <Contact/>
        <Projects/>
        <Footer/>
-    </Container >
+    </div >
   );
 }
 
