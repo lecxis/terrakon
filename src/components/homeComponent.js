@@ -82,6 +82,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
        <h6 className="my-5">Geotechnical Soil Investigation</h6>
 
        <p>
+        
         Designing anad constructing a strong and resilient foundation is mostly dependent on the geotechnical
         soil investigation carried out. Carefull analysis and detailed soil test will go a long way in determinig the 
         success of the foundation.
