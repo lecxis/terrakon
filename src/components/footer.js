@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-black py-6 text-center">
+    <footer className="bg-dark text-white py-6 text-center">
 
         <div className="container">
             <div className="row justify-content-center">             
@@ -23,7 +23,7 @@ const Footer = () => {
                  <div className="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              XXXXconsult avenue, <br />
+		              XXXX consult avenue, <br />
 		              Ikeja, Lagos state,<br />
 		              Nigeria<br />
 		              <i className="fa fa-phone fa-lg"></i>: +234 8161 83 1481<br />
@@ -47,7 +47,14 @@ const Footer = () => {
                 </div>
                 </div>
 
-      <p className="text-sm">&copy; 
+      <p style={{ 
+             backgroundImage: `url(${process.env.PUBLIC_URL + '/asset/images/drillers-rig.jpg'})`,
+              backgroundRepeat: 'no-repeat',
+        
+           backgroundSize: 'cover',
+           width:'100%'
+              
+        }} className="text-sm">&copy; 
         {new Date().getFullYear()} XXX consult. All rights reserved.</p>
 
     </footer>

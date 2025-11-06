@@ -8,8 +8,6 @@ function HomeComponent() {
     return (
         <div className="my-5"  id="Contact">
 
-
-
       <Row className="align-items-center">
         <Col className="text-center" >
         
@@ -21,36 +19,45 @@ function HomeComponent() {
            </Col>
       </Row>
 
-      <Row className="bg-dark p-5">
-            <Col md={6}>
-         <h3 className="text-white p-5">
-            Get in ntouch with us today and discover seamless service delivery 
-            as we begin to extract every useful information about the underground
-            essentially important in design decision making
 
-         </h3>
-            
-            </Col>
-          
+     <Row className='bg-secondary p-5 text-white'>
+       <Col md={6}>
+        <h2 className="ps-5"> Get in touch</h2>
 
-            <Col>
-                   <h3 className="text-white p-5">
-                <h3>Our Address</h3>
-                    <address>
-		              XXXXconsult avenue, <br />
+         <h5 className="text-white p-5 pt-1">
+            Thank you for your interest in XXXconsult . We are happy to work with you in studying the subsurface 
+            in order to make the best design descision.
+
+         </h5>
+
+        
+                   <h3 className="ps-5">Contact Information</h3>
+                    <address className="ps-5 fw-bold">
+                      <Row className="p-2 align-items-center">
+                        <Col xs={1}> <i className="bi bi-geo-alt px-0 align-middle"></i> </Col>
+		              <Col>
+                  XXXXconsult avenue, <br />
 		              Ikeja, Lagos state,<br />
 		              Nigeria<br />
-                      <i className="fa fa-phone fa-lg"></i>: +234 8161 83 1481<br />
-		              <i className="fa fa-fax fa-lg"></i>: +234 816 183 1481<br />
-		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:oloniluaolalekan@gmail.com">
-                         info@xxxconsult.com</a>
-                      </address></h3>
-            </Col>
-      </Row>
+                    </Col>
+                     </Row>
+                       <Row>
+                        <p><i className="bi bi-phone fa-lg"></i>: +234 8161 83 1481, +234 816 183 1481</p>
+                        </Row>
+                        <Row>
+                          <p>
+                          <i className="bi bi-envelope-at fa-lg "></i>
+                          <a href="mailto:oloniluaolalekan@gmail.com" className="text-white">
+                          : info@xxxconsult.com</a>
+                          </p>
+                        </Row>
+		              
+                      </address>
 
-      <Row className="p-5">
-        <Col>
-        <h2 className="text-center"> Get in touch</h2>
+       </Col>
+
+       <Col>
+       <h5 className="text-center"> Kindly provide us with the following information and we will put you in touch with the right person</h5>
 
             <Form>
         <Form.Group className="mb-3" controlId="controlName">
@@ -73,9 +80,10 @@ function HomeComponent() {
           </Button>
              </div>
     </Form>
+       </Col>
 
-        </Col>
-      </Row>
+     </Row>
+      
 
      </div>
  )

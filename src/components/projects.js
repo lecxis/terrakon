@@ -41,7 +41,7 @@ function Projects() {
                              alt="Rig beside a ship" width = "200" 
                             // className="img-fluid m-6"
                            />
-                           <h6 className="my-5">Pile Foundation instalation at Abeokuta</h6>
+                           <h6 className="my-5">Pile Foundation construction at Abeokuta</h6>
                     </Col>
 
                  </Row>

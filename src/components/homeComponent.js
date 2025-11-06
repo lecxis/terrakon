@@ -50,7 +50,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
                       best service as far as site investigation and characterization are concern. All our services
                       are done with best practise in mind.  <Button outline> Read More</Button>
                     </p>
-        
+         
         </Col>
         <Col sm={4} xs={12} lg={{ order: 'first' }}>
         
@@ -60,7 +60,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
          className="img-fluid m-6"
 
        />
-        </Col>
+        </Col> 
       </Row>
 
       <Row className="mx-auto bg-light p-4">
