@@ -6,7 +6,7 @@ function HomeComponent() {
 
 
     return (
-        <div className="my-5"  id="Contact">
+        <div className="my-5 bg-dark text-white"  id="Contact">
 
       <Row className="align-items-center">
         <Col className="text-center" >
@@ -20,11 +20,11 @@ function HomeComponent() {
       </Row>
 
 
-     <Row className='bg-secondary p-5 text-white'>
+     <Row className=' p-5 '>
        <Col md={6}>
-        <h2 className="ps-5"> Get in touch</h2>
+        <h2 className="ps-2"> Get in touch</h2>
 
-         <h5 className="text-white p-5 pt-1">
+         <h5 className="text-white p-2 pt-1">
             Thank you for your interest in XXXconsult . We are happy to work with you in studying the subsurface 
             in order to make the best design descision.
 
@@ -56,7 +56,7 @@ function HomeComponent() {
 
        </Col>
 
-       <Col>
+       <Col className="pt-5">
        <h5 className="text-center"> Kindly provide us with the following information and we will put you in touch with the right person</h5>
 
             <Form>
