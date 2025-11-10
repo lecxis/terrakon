@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/terrakon/static/css/main.b6ab280f.css",
-    "main.js": "/terrakon/static/js/main.04f25877.js",
+    "main.css": "/terrakon/static/css/main.e1839070.css",
+    "main.js": "/terrakon/static/js/main.80afffa0.js",
     "static/js/453.59b1b19a.chunk.js": "/terrakon/static/js/453.59b1b19a.chunk.js",
     "static/media/bootstrap-icons.woff?": "/terrakon/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/terrakon/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "static/media/logo.svg": "/terrakon/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/terrakon/index.html",
-    "main.b6ab280f.css.map": "/terrakon/static/css/main.b6ab280f.css.map",
-    "main.04f25877.js.map": "/terrakon/static/js/main.04f25877.js.map",
+    "main.e1839070.css.map": "/terrakon/static/css/main.e1839070.css.map",
+    "main.80afffa0.js.map": "/terrakon/static/js/main.80afffa0.js.map",
     "453.59b1b19a.chunk.js.map": "/terrakon/static/js/453.59b1b19a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6ab280f.css",
-    "static/js/main.04f25877.js"
+    "static/css/main.e1839070.css",
+    "static/js/main.80afffa0.js"
   ]
 }
