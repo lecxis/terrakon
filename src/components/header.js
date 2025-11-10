@@ -34,12 +34,13 @@ export default function Header() {
 // <p>Redefining soil testing and ground water exploration</p>
 // </div>
 // </header>
-<div style={{ 
+<div className="position-relative" style={{ 
              backgroundImage: `url(${process.env.PUBLIC_URL + '/asset/images/drillers-rig.jpg'})`,
               backgroundRepeat: 'no-repeat',
-           height: '600px',
-           backgroundSize: 'cover',
-           width:'100%'
+               backgroundSize: 'cover',
+           height: '100vh',
+           width:'100%',
+         
               
         }}>
   <Navbar expand="lg" className="navbar-dark" >
@@ -76,8 +77,8 @@ export default function Header() {
         </Container>
   </Navbar>
 
-  <div className="intro-body">
-<p>Redefining geotechnical soil investigation, foundation design,
+  <div className="intro-body position-absolute bottom-0 left-50">
+<p >Redefining geotechnical soil investigation, foundation design,
    and groundwater exploration!</p>
 </div>
 

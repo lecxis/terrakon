@@ -6,7 +6,7 @@ function HomeComponent() {
 
 
     return (
-        <div className="my-5 bg-dark text-white"  id="Contact">
+        <div className=" bg-dark text-white"  id="Contact">
 
       <Row className="align-items-center">
         <Col className="text-center" >
@@ -20,7 +20,7 @@ function HomeComponent() {
       </Row>
 
 
-     <Row className=' p-5 '>
+     <Row className=' p-3 '>
        <Col md={6}>
         <h2 className="ps-2"> Get in touch</h2>
 

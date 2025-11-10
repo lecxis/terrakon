@@ -40,7 +40,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
 
   return (
 
-    <div className='my-5'>
+    <div className='my-0'>
     <Row className="align-items-center">
         <Col sm={8} className="mx-auto bg-light p-5">
         <h4> Providing Enginnering Excellence is what we Do Here</h4>
@@ -57,13 +57,13 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
         <img
     src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
          alt="Rig beside a ship" width = "360" 
-         className="img-fluid m-6"
+         className="img-fluid m-2"
 
        />
         </Col> 
       </Row>
 
-      <Row className="mx-auto bg-light p-4">
+      <Row className="mx-auto  p-4 activities">
        
         <Col xs={12} className="text-center"  >
              <h4 className="mt-5"> Geothechnical and  Structural Integrity Services</h4>
@@ -138,13 +138,13 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
 
       </Row>
 
-        This is where the body will lie
+      {/* This is where the body will lie
 
         <Row md={6}>
          <Button outline onClick={()=>{clickMe('buut')}} >
           <span className="fa fa-sign-in fa-lg"></span> Login</Button>
         </Row>
-       
+       */}
     </div>
   )};
 

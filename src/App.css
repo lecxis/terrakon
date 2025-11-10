@@ -53,25 +53,45 @@ a{
 }
  */
 /* main part of the intro*/
-
+.parent{
+  position: relative;
+  border: '17px solid green';
+}
 .intro-body{
-  margin-top: 10%;
-  display: flex;
-  background-color: aquamarine;
-  background-color: hsla(50, 33%, 25%, 15%); 
-  width: 60%;  
+  position: 'absolute'; 
+  bottom: '0'; left: '0' ;
+  /*display: flex;
+  /*background-color: aquamarine;
+  /*background-color: hsla(50, 33%, 25%, 15%); */
+  
+  width: 65%;  
   filter: alpha(opacity=50); 
 
 }
 .intro-body p{
-  font-size: 25px;
+  font-size: 30px;
     font-family:  Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    color:aliceblue;
-    border: 15px solid green;
-    
-    padding: 50px;
-    margin: 20px;
-  
+   color:rgb(236, 238, 240);
+     /*border: 15px solid green;*/
+   padding: 40px;
+    /*margin: 20px;*/
+     -webkit-text-stroke-width: 0.2px; /* Adjust the width as needed */
+  -webkit-text-stroke-color: #000;
 }
 
+.activities{
+  background-color: aliceblue; 
+}
+
+@media (max-width: 600px) { /* For screens smaller than 480px */
+  .intro-body{
+  margin-top: 60%;
+   width: 80%;  
+  }
+  .intro-body p {
+    font-size: 20px;
+     padding: 5px;
+    margin: 10px;
+  }
+}
