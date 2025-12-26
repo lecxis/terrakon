@@ -4,10 +4,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-6 text-center">
+    <footer className="bg-dark text-white text-center">
 
-        <div className="container">
-            <div className="row justify-content-center">             
+        <div className="container ">
+            <div className="row justify-content-center py-3 ">             
                 <div className="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul className="list-unstyled">

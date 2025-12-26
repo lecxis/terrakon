@@ -12,7 +12,7 @@ function HomeComponent() {
         <Col className="text-center" >
         
      
-        <h1>Contact Us</h1>
+        <h1 className="p-5">Contact Us</h1>
 
         <h2> Reach out to us for quality Geotechnical Services</h2>
 

@@ -76,7 +76,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
                 <Col md ={4} lg={3} className= "justify-content-center " >
                       <img
     src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
-         alt="Rig beside a ship" width = "80" 
+         alt="Rig beside a ship" width = "200" 
         // className="img-fluid m-6"
        />
        <h6 className="my-5">Geotechnical Soil Investigation</h6>
@@ -92,7 +92,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
                 <Col md ={4} lg={3}>
                       <img
     src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
-         alt="Rig beside a ship" width = "80" 
+         alt="Rig beside a ship" width = "200" 
         // className="img-fluid m-6"
        />
        <h6 className="my-5">Super-structure and sub-structure appraisal</h6>
@@ -107,7 +107,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
                 <Col md ={4} lg={3}>
                       <img
     src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
-         alt="Rig beside a ship" width = "80" 
+         alt="Rig beside a ship" width = "200" 
         // className="img-fluid m-6"
        />
        <h6 className="my-5">Pile instalation</h6>
@@ -122,7 +122,7 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
                 <Col md ={4} lg={3}>
                       <img
     src={process.env.PUBLIC_URL + '/asset/images/ship-rig.jpg'}
-         alt="Rig beside a ship" width = "80" 
+         alt="Rig beside a ship" width = "200" 
         // className="img-fluid m-6"
        />
        <h6 className="my-5">Pile Integrity Testing</h6>
