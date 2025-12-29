@@ -68,6 +68,12 @@ a{
   filter: alpha(opacity=50); 
 
 }
+
+
+#Contact, footer{
+  background-color: #0A131D;
+}
+
 .intro-body p{
   font-size: 30px;
     font-family:  Tahoma, Geneva, Verdana, sans-serif;

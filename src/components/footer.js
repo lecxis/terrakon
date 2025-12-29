@@ -4,11 +4,26 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white text-center">
+    <footer className="text-white ">
 
-        <div className="container ">
-            <div className="row justify-content-center py-3 ">             
-                <div className="col-4 offset-1 col-sm-2">
+        <div className="mx-5 align-items-center">
+            <div className="row   ">      
+            <div className="col-6 col-md-3 col-sm-12 mt-sm-5">
+                    <h5>Xxxx Consults</h5>
+                    Redefining geotechnical engineering, foundation design, and groundwater exploration act
+                </div>
+
+                <div className="col-6 col-md-3 col-sm-12  mt-sm-5">
+                    <h5>Services</h5>
+                    <ul className="list-unstyled">
+                      <li>Geotechnical Soil Investigation</li> 
+                        <li>Super/sub-structure appraisal</li>
+                        <li>Pile design and instalation</li>
+                        <li>Pile load and pile integrity testing</li>
+                    </ul>
+                </div>
+
+                <div className="col-6 col-md-2 col-sm-12 mt-sm-5">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                       <li>Home</li> 
@@ -20,7 +35,7 @@ const Footer = () => {
                         <li><Link to='/contactus'>Contact Us</Link></li>*/}
                     </ul>
                 </div>
-                 <div className="col-7 col-sm-5">
+                 <div className="col-6 col-md-2 col-sm-12 mt-sm-5">
                     <h5>Our Address</h5>
                     <address>
 		              XXXX consult avenue, <br />
@@ -33,14 +48,15 @@ const Footer = () => {
                     </address>
                 </div>
 
-                 <div className="col-12 col-sm-4 align-self-center">
-                    <div className="text-center">
-                        <a className="btn btn-social-icon btn-google" href="http://google.com/+">google<i className="fa fa-google-plus"></i></a>
-                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
-                        <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
-                        <a className="btn btn-social-icon" href="mailto:"><i className="fa fa-envelope-o"></i></a>
+                 <div className="col-6 col-md-2 mt-sm-5 ">
+                    <div className="tex">
+                    <h5>Connect</h5>
+                        <a className="btn btn-social-icon btn-google" href="http://google.com/+">google<i className="fa fa-google-plus"></i></a><br />
+                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">facebook<i className="fa fa-facebook"></i></a><br />
+                        <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">linkedin<i className="fa fa-linkedin"></i></a><br />
+                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/">Twitter<i className="fa fa-twitter"></i></a><br />
+                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/">youtube<i className="fa fa-youtube"></i></a><br />
+                        <a className="btn btn-social-icon" href="mailto:">Email<i className="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
 
@@ -54,7 +70,7 @@ const Footer = () => {
            backgroundSize: 'cover',
            width:'100%'
               
-        }} className="text-sm">&copy; 
+        }} className="text-sm text-center">&copy; 
         {new Date().getFullYear()} XXX consult. All rights reserved.</p>
 
     </footer>
