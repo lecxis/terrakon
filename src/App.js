@@ -17,8 +17,8 @@ function App() {
       <Header/>
        
        <Home/>
-       <Contact/>
-       <Projects/>
+       
+       
        <Footer/>
     </div >
   );

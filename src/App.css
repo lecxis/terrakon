@@ -53,6 +53,12 @@ a{
 }
  */
 /* main part of the intro*/
+
+.secondNav{
+/*border: 15px solid green;*/
+background-color: aliceblue;
+
+}
 .parent{
   position: relative;
   border: '17px solid green';

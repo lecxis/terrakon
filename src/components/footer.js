@@ -8,12 +8,12 @@ const Footer = () => {
 
         <div className="mx-5 align-items-center">
             <div className="row   ">      
-            <div className="col-6 col-md-3 col-sm-12 mt-sm-5">
+            <div className="col-12 col-md-3 mt-5">
                     <h5>Xxxx Consults</h5>
                     Redefining geotechnical engineering, foundation design, and groundwater exploration act
                 </div>
 
-                <div className="col-6 col-md-3 col-sm-12  mt-sm-5">
+                <div className="col-12 col-md-3 mt-5">
                     <h5>Services</h5>
                     <ul className="list-unstyled">
                       <li>Geotechnical Soil Investigation</li> 
@@ -23,7 +23,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="col-6 col-md-2 col-sm-12 mt-sm-5">
+                <div className="col-12 col-md-3 mt-5">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                       <li>Home</li> 
@@ -35,7 +35,7 @@ const Footer = () => {
                         <li><Link to='/contactus'>Contact Us</Link></li>*/}
                     </ul>
                 </div>
-                 <div className="col-6 col-md-2 col-sm-12 mt-sm-5">
+                 <div className="col-12 col-md-3 mt-5">
                     <h5>Our Address</h5>
                     <address>
 		              XXXX consult avenue, <br />
@@ -48,7 +48,7 @@ const Footer = () => {
                     </address>
                 </div>
 
-                 <div className="col-6 col-md-2 mt-sm-5 ">
+                 <div className="col-12 col-md-3 mt-5 ">
                     <div className="tex">
                     <h5>Connect</h5>
                         <a className="btn btn-social-icon btn-google" href="http://google.com/+">google<i className="fa fa-google-plus"></i></a><br />

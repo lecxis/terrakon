@@ -1,5 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import {Button, Row, Col} from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+import Contact from './contact';
+import Projects from './projects';
 
 function HomeComponent() {
 
@@ -41,6 +46,26 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
   return (
 
     <div className='my-0'>
+
+      <div className="navbar sticky-top secondNav " style={{ zIndex: 1000 }}>
+
+      
+              <Navbar className="navbar  mx-auto ">
+       
+       <Nav className="mx-auto">
+         <Nav.Link href="#home" className="text-dark fw-bold">Home</Nav.Link>
+         <Nav.Link href="#link" className="text-dark fw-bold">About us</Nav.Link>
+         <Nav.Link href="#contact" className="text-dark fw-bold">Contact</Nav.Link>
+         <Nav.Link href="#contact" className="text-dark fw-bold">History</Nav.Link>
+       </Nav>
+
+       <Nav>
+         <Nav.Link href="#deets">Other services</Nav.Link>
+       </Nav>
+          
+        </Navbar>
+          </div>
+
     <Row className="align-items-center">
         <Col sm={8} className="mx-auto bg-light p-5">
         <h4> Providing Enginnering Excellence is what we Do Here</h4>
@@ -145,6 +170,8 @@ fetch('https://htacapi.onrender.com/api/defaulthtac/Account/authenticate',
           <span className="fa fa-sign-in fa-lg"></span> Login</Button>
         </Row>
        */}
+       <Contact/>
+       <Projects/>
     </div>
   )};
 
